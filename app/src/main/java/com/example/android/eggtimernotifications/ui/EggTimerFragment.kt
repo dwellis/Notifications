@@ -75,10 +75,13 @@ class EggTimerFragment : Fragment() {
             notificationChannel.enableVibration(true)
             notificationChannel.description = "Time for breakfast"
 
+            /*
             val notificationManager = requireActivity().getSystemService(
                 NotificationManager::class.java
             )
             notificationManager.createNotificationChannel(notificationChannel)
+
+             */
         }
         // TODO: Step 1.6 END create a channel
 
